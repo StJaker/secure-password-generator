@@ -29,7 +29,15 @@ chars = list(string.ascii_letters + string.digits + "!@#$%^&*()")
 
 # title method
 def title():
+    print("""
+  _________________________  _________  ____  __.___________________
+ /   _____/\__    ___/  _  \ \_   ___ \|    |/ _|\_   _____/\______  |
+ \_____  \   |    | /  /_\  \/    \  \/|      <   |    __)_  |    |   |
+ /        \  |    |/    |    \     \___|    |  \  |        \ |    `   |
+/_______  /  |____|\____|__  /\______  /____|__ \/_______  //_______  /
+        \/                 \/        \/        \/        \/         \/""")
     print("Stacked Password Generation (SPG)")
+    print("\n")
 
 # generation method
 def generate():
