@@ -57,6 +57,7 @@ def generate():
 
     # print the result
     print ("Password: "+"".join(passw))
+    print ("\n")
 
 
 # invoking functions
